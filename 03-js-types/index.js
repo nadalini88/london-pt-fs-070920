@@ -4,11 +4,14 @@
  * create a variable {greeting} which should be a string
  */
 
+const greeting = "Hello World!";
+
 /**
  * Exercise 2
  *
  * create a variable {name} which should be a string
  */
+const name = "Julio";
 
 /**
  * Exercise 3
@@ -17,6 +20,8 @@
  * concatenation of {greeting} and {name}
  */
 
+const phrase = greeting.concat(name);
+
 /**
  * Exercise 4
  *
@@ -24,11 +29,15 @@
  * it should be a float.
  */
 
+const price = 1.25;
+
 /**
  * Exercise 5
  *
  * create a variable {quantity} which should has type number.
  */
+
+const quantity = 25;
 
 /**
  * Exercise 6
@@ -36,6 +45,7 @@
  * create a variable {total} which should be
  * equal to price multiplied by quantity
  */
+const total = price * quantity;
 
 /**
  * Exercise 7
@@ -43,6 +53,9 @@
  * create a variables {age1}, {age2}, {age3} which should be
  * integers
  */
+let age1 = 20;
+let age2 = 14;
+let age3 = 10;
 
 /**
  * Exercise 8
@@ -50,6 +63,7 @@
  * create a variable {averageAge} which should be
  * the mean of age1, age2 and age3
  */
+const averageAge = (age1 + age2 + age3) / 3;
 
 /**
  * Exercise 9
@@ -57,6 +71,7 @@
  * create a variable {loggedIn} which should be
  * a boolean and equals true.
  */
+let loggedIn = true;
 
 /**
  * Exercise 10
@@ -64,6 +79,7 @@
  * create a variable {adminUser} which should be
  * a boolean and equals false.
  */
+let adminUser = false;
 
 /**
  * Exercise 11
@@ -71,6 +87,7 @@
  * create a variable {missingInfo} which should be
  * equal to undefined
  */
+let missingInfo = undefined;
 
 /**
  * Exercise 12

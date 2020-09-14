@@ -4,14 +4,20 @@
  * create a global variable "myFavoriteAnimal" and
  * assign your favorite animal
  */
+let myFavoriteAnimal = "dog";
 
 /**
  * Exercise 2
  *
  * create a function "myAnimalWithLog", which will have
- * console.log with the message "My favorite animal is `myFavoriteAnimal`"
+ * console.log with the message "My favorite animal is" `myFavoriteAnimal`"
  * Check developer tools in your browser for the message
  */
+
+function myAnimalWithLog() {
+  console.log("My favorite animal is " + myFavoriteAnimal);
+}
+myAnimalWithLog();
 
 /**
  * Exercise 3
@@ -21,6 +27,9 @@
  * Check developer tools in your browser for the message
  * and see the difference with console.log
  */
+function myAnimalWithWarn() {
+  console.warn("My favorite animal is " + myFavoriteAnimal);
+}
 
 /**
  * Exercise 4
@@ -30,6 +39,9 @@
  * Check developer tools in your browser for the message
  * and see the difference with console.log
  */
+function myAnimalWithError() {
+  console.error("My favorite animal is " + myFavoriteAnimal);
+}
 
 /**
  * Exercise 5
@@ -37,3 +49,8 @@
  * alert(read about it) with the message "My favorite city is YOUR_CITY"
  *
  */
+function myCity() {
+  let YOUR_CITY = "London";
+  alert("My favorite city is " + YOUR_CITY);
+}
+myCity();

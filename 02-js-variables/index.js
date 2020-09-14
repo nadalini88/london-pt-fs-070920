@@ -15,3 +15,7 @@
  *
  * {age} can be reassigned
  */
+
+const userName = "Julio";
+
+let age = 32;
