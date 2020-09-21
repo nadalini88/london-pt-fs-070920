@@ -1,0 +1,111 @@
+.background {
+  background-color: grey;
+}
+
+.head {
+  display: flex;
+  justify-content: flex-end;
+  background: black;
+  color: white;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title_01 {
+  color: white;
+  font: Roboto;
+  font-weight: 700;
+  font-size: 56px;
+}
+
+.title_02 {
+  color: white;
+  font: Roboto;
+  font-weight: 700;
+  font-size: 56px;
+}
+
+.item1 {
+  background: white;
+}
+
+.image_1 {
+  background-color: black;
+}
+
+.block_1_column {
+  width: 50%;
+  position: relative;
+}
+.image_2 {
+  position: relative;
+}
+
+.text1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.block_1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: white;
+}
+
+.block_2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  background-color: white;
+}
+
+.first_block {
+  flex-basis: 50%;
+}
+.second_block {
+  flex-basis: 50%;
+}
+
+.title_03 {
+  width: 100%;
+  height:200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner_title {
+  width: 803px;
+  height: 76px;
+  display: flex;
+
+}
+
+.block_3 {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+ }
+
+ .third_block {
+     width: 25%;
+     height: 200px;
+     justify-content: space-evenly;
+}
+.
