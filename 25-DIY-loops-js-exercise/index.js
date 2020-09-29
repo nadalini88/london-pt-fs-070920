@@ -11,7 +11,7 @@ const dataTypes = [
   [1, 2, 3, 4],
   { type: "boolean" },
   [32, 52],
-  43.1,
+  43.1
 ];
 
 /**
@@ -38,6 +38,32 @@ const dataTypes = [
  * }
  */
 
+function sortedData(array) {
+  const obj = {
+    strings: [],
+    integers: [],
+    floats: [],
+    arrays: [],
+    objects: []
+  };
+  for (const element of array) {
+    if (string == typeof element) {
+      obj.strings(`${element}`);
+    } else if (integer == number.isInteger(element)) {
+      obj.integers(`${element}`);
+    }
+  }
+  return obj;
+}
+
+/** *sortedData(dataTypes);
+
+for (const key in object) {
+  const element = array[key];
+  if (key == typeof element) {
+    return `${key}: ${object[key]}`;
+  }
+}* /
 
 /**
  * Exercise 2
@@ -63,7 +89,6 @@ const dataTypes = [
  * ex: multipliedEvenNumbers([4,3,6,8,5,7])
  * result: [24, 3, 48, 16, 5, 7]
  */
-
 
 /**
  * Exercise 4
