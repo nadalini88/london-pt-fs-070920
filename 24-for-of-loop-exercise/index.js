@@ -14,7 +14,7 @@
 function getIntegersOnly(array) {
   let integers = [];
   for (const element of array) {
-    if (element.isInteger(element)) {
+    if (Number.isInteger(element)) {
       integers.push(element);
     }
   }
@@ -31,13 +31,13 @@ function getIntegersOnly(array) {
 // google for module (%)
 
 function getEvenNumbers(array) {
-  let odd = [];
+  let even = [];
   for (const element of array) {
-    if (Number.isInteger(element)) {
-      odd.push(element);
+    if (element % 2 == 0) {
+      even.push(element);
     }
   }
-  return odd;
+  return even;
 }
 
 /**
@@ -49,12 +49,32 @@ function getEvenNumbers(array) {
  * should return an empty array
  */
 
+function getEvenNumbersFromMixedArray(array) {
+  let even = [];
+  for (const element of array) {
+    if (element % 2 == 0 && Number.isInteger(element)) {
+      even.push(element);
+    }
+  }
+  return even;
+}
+
 /**
  * Exercise 4
  * create a function {getOddNumbers}, which takes an array of integers
  * and returns a new array with odd numbers only, if there is no odd
  * integers it should return an empty array
  */
+
+function getOddNumbers(array) {
+  let odd = [];
+  for (const element of array) {
+    if ((element - 1) % 2 == 0) {
+      odd.push(element);
+    }
+  }
+  return odd;
+}
 
 /**
  * Exercise 5
@@ -65,3 +85,16 @@ function getEvenNumbers(array) {
  * If your param is [1,2,3,4,5] the result should be
  * [2,1,4,3,6]
  */
+function evenOddTransform(array) {
+  let int = [];
+  for (let element of array) {
+    if ((element - 1) % 2 == 0) {
+      element += 1;
+      int.push(element);
+    } else if (element % 2 == 0 && element !== 0) {
+      element -= 1;
+      int.push(element);
+    }
+  }
+  return int;
+}

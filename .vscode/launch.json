@@ -1,0 +1,16 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "console": "integratedTerminal",
+      "request": "launch",
+      "name": "Run Movie Program",
+      "cwd": "${workspaceFolder}/js-cli-project-london-pt-fs-070920/",
+      "program": "${workspaceFolder}/js-cli-project-london-pt-fs-070920/app.js"
+    }
+  ]
+}
