@@ -19,7 +19,6 @@ let convertToPositive = () => {
   });
   return newNumber;
 };
-
 /**
  * Exercise 2
  *
