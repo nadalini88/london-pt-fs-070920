@@ -26,13 +26,14 @@ const syncCookIngredient = ({ name, time }) => {
  *
  * create a function {syncCookMeal} which will recieve an
  * array of {ingredientsToCook}, (similar to the array
- * defined on line 1) and call {syncCookIngredient} 
+ * defined on line 1) and call {syncCookIngredient}
  * for each ingredient in the array
- * 
+ *
  * After all the ingredients are cooked,
  * log the message "Soup is ready to serve"
  */
 
+<<<<<<< HEAD
 
 const syncCookMeal = (array) => {
   array.forEach(element => {
@@ -41,6 +42,8 @@ const syncCookMeal = (array) => {
   console.log("Soup is ready to serve")
 }
 
+=======
+>>>>>>> 33b2dfbe225e14e41855361dddee3ccd1015f59a
 /**
  * Exercise 2
  *
@@ -72,6 +75,7 @@ const asyncCookIngredient = (ingredient) => {
  * After all the ingredients are cooked,
  * log the message "Soup is ready to serve"
  */
+<<<<<<< HEAD
 
 
 
@@ -82,3 +86,5 @@ const asyncCookMeal = async (ingredients) => {
   const max_time = Math.max(ingredients.time);
   setTimeout(() => console.log("Soup is ready to serve"), max_time + 5);
 };
+=======
+>>>>>>> 33b2dfbe225e14e41855361dddee3ccd1015f59a
